@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Page de Connexion Comptable</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="co">
+    <div class="container">
+        <h4>Vous connecter à votre compte de visiteur medicale</h4>
+        <p id="infosco">Veuillez entrez vos informations ci dessous:</p>
+        <div class="monBloc">
+        <form action="accueil_compta.html" method="POST">
+            <label for="username">Login:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Mot de passe:
+            <input type="password" id="password" name="password" required></label>
+            <input type="submit" value="Se connecter">
+        </form>
+        <p>Vous n'avez pas de comptes ? <a href="inscription_compta.html">Créer un compte</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,212 @@
+    .co {
+            font-family: Arial, sans-serif;
+            background-image:url("fond_connexion.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+    .acceuil{
+    font-family: Arial, sans-serif;
+    background-color: #80a4ed;
+}
+        .container {
+            width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color:#80a4ed ;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+             
+        }
+        .monBloc {
+            width: 300px;
+            padding: 20px;
+            background-color: #BCD3F2; ;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+             
+        }
+        input[type="text"],
+        input[type="password"]{
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+            background-color: #62a7a3;
+            opacity: 1; 
+        }
+        
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+            opacity: 1; 
+        }
+        input[type="submit"] {
+            background-color: #265328;
+            color: white;
+            cursor: pointer;
+            opacity: 1; 
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+            opacity: 1; 
+        }
+        h4{
+            text-align: center;
+            opacity: 1; 
+        }
+        #infosco {
+            text-align: center;
+       
+            font-size: 14px;
+            opacity: 1; 
+        }
+        .monBlocinscri{
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.5); ;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            position: relative;
+            
+
+        }
+        input[type="submit"].bouton_inscrit {
+            width: 100%;
+            
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            position: absolute;
+            top: 95%; 
+            right: 0;
+        }
+        nav {
+            background-color: #645f5f; 
+            
+             
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .principale{
+            width: 500px;
+            height:500px;
+            padding: 20px;
+            background-color: rgb(254, 254, 254); ;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+        }
+        
+        .logo img {
+                max-height: 80px;
+            
+            
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul li {
+            display: inline-block;
+            margin: 0 10px; /* Marge entre les éléments de la barre de navigation */
+            align-items: center;
+        }
+        
+        ul li a {
+            color: white; 
+            text-decoration: none; 
+            font-size: 14px; 
+        }
+        
+        ul li a:hover {
+            text-decoration: underline; 
+        }
+        
+        .content {
+            padding: 20px;
+        }
+        .containe {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .formulaire {
+            width: 300px;
+            margin: 30px;
+            padding: 20px;
+            border: 1px solid #bcd3f2;
+            border-radius: 5px;
+        }
+       
+        
+    
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        
+        
+        
+       
+        
+        
+        .bouton-renseigner {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #d4cb92;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            position: relative;
+            left: 0%;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            background-color: #ffffff;
+        }
+        .zone-cliquable {
+            width: 300px; 
+            height: 200px; 
+            background-color: #d4cb92; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none; 
+            color: #000; 
+            font-weight: bold; 
+            font-size: 16px; 
+          }
+        section{
+            width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #80a4ed; ;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+        }

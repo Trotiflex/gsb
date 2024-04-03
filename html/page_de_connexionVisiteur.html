@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Page de Connexion-Visiteur</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="co">
+    <div class="container">
+        <h4>Vous connecter à votre compte de visiteur medicale</h4>
+        <p id="infosco">Veuillez entrez vos informations ci dessous:</p>
+        <div class="monBloc">
+        <form action="traitementconnexion.php" method="POST">
+            <label for="login">Login:</label>
+            <input type="text" id="login" name="login" required>
+            <label for="password">Mot de passe:
+            <input type="password" id="password" name="password" required></label>
+            <input type="submit" value="Se connecter">
+        </form>
+        <p>Vous n'avez pas de comptes ? <a href="inscription_Visi.html">Créer un compte</a>
+        </div>
+    </div>
+</body>
+</html>
